@@ -232,7 +232,7 @@ function App() {
         color: "#38bdf8",
         marginBottom: "20px"
       }}>
-         Orbit
+         Gerenciador de Tarefas
       </h1>
 
       {loading && <p>Carregando...</p>}
