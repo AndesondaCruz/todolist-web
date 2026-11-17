@@ -1,66 +1,66 @@
-# 🚀 Todo List Profissional
+# Todolist Web
 
 Uma aplicação web moderna de gerenciamento de tarefas, com suporte a subtarefas, drag-and-drop, filtros, paginação e interface responsiva.
 
 ---
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Este projeto é uma aplicação **Fullstack (Frontend + Backend)** desenvolvida com foco em boas práticas, experiência do usuário e arquitetura escalável.
 
 A aplicação permite ao usuário gerenciar tarefas de forma eficiente, organizando-as em três estados:
 
-* 📝 A Fazer
-* ⚙️ Fazendo
-* ✅ Feito
+* A Fazer
+* Fazendo
+* Feito
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 🔹 Gerenciamento de tarefas
+### Gerenciamento de tarefas
 
 * Criar tarefas
 * Editar tarefas
 * Deletar tarefas
 * Alterar status (drag and drop)
 
-### 🔹 Subtarefas
+### Subtarefas
 
 * Adicionar subtarefas
 * Marcar como concluída
 * Deletar subtarefa
 * Barra de progresso automática
 
-### 🔹 Interface e UX
+### Interface e UX
 
 * Drag and Drop entre colunas
 * Feedback visual com Toasts
 * UI moderna (dark mode)
 * Componentização com React
 
-### 🔹 Filtros e busca
+### Filtros e busca
 
 * Buscar tarefas por texto
 * Filtrar por status
 * Atualização automática da listagem
 
-### 🔹 Paginação
+### Paginação
 
 * Navegação entre páginas
 * Controle de limite de dados
 
-### 🔹 Responsividade
+### Responsividade
 
 * Compatível com:
 
-  * 📱 Mobile (iPhone SE, iPhone 12)
-  * 📱 Tablets (iPad)
-  * 💻 Desktop
+  * Mobile (iPhone SE, iPhone 12)
+  * Tablets (iPad)
+  * Desktop
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 ### Frontend
 
@@ -77,12 +77,12 @@ A aplicação permite ao usuário gerenciar tarefas de forma eficiente, organiza
 
 ### Backend (integrado)
 
-* API REST (Node.js / NestJS)
+* API REST em NestJS: [todolist-api](https://github.com/AndesondaCruz/todolist-api)
 * Comunicação via HTTP (GET, POST, PATCH, DELETE)
 
 ---
 
-## 🧠 Conceitos aplicados
+## Conceitos aplicados
 
 * CRUD completo
 * UI otimista (atualização instantânea)
@@ -94,7 +94,7 @@ A aplicação permite ao usuário gerenciar tarefas de forma eficiente, organiza
 
 ---
 
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 src/
@@ -114,25 +114,25 @@ src/
 
 ---
 
-## ⚙️ Como rodar o projeto
+## Como rodar o projeto
 
-### 🔹 1. Clone o repositório
-
-```
-git clone https://github.com/seu-usuario/seu-repo.git
-```
-
----
-
-### 🔹 2. Acesse a pasta
+### 1. Clone o repositório
 
 ```
-cd seu-repo
+git clone https://github.com/AndesondaCruz/todolist-web.git
 ```
 
 ---
 
-### 🔹 3. Instale as dependências
+### 2. Acesse a pasta
+
+```
+cd todolist-web
+```
+
+---
+
+### 3. Instale as dependências
 
 ```
 npm install
@@ -140,7 +140,7 @@ npm install
 
 ---
 
-### 🔹 4. Rode o projeto
+### 4. Rode o projeto
 
 ```
 npm run dev
@@ -148,11 +148,9 @@ npm run dev
 
 ---
 
-## 🌐 Backend
+## Backend
 
-Certifique-se de que a API esteja rodando corretamente.
-
-Exemplo:
+O front-end consome a [todolist-api](https://github.com/AndesondaCruz/todolist-api). Suba a API antes de rodar o front-end. Por padrão, ela é acessada em:
 
 ```
 http://localhost:3000
@@ -160,9 +158,9 @@ http://localhost:3000
 
 ---
 
-## 🔐 Variáveis de ambiente
+## Variáveis de ambiente
 
-Crie um arquivo `.env` se necessário:
+A URL da API é lida da variável `VITE_API_URL`. Sem ela, o padrão é `http://localhost:3000`. Para mudar, copie o `.env.example` para `.env` e ajuste o valor:
 
 ```
 VITE_API_URL=http://localhost:3000
@@ -170,7 +168,7 @@ VITE_API_URL=http://localhost:3000
 
 ---
 
-## 📸 Demonstração
+## Demonstração
 
 Funcionalidades principais:
 
@@ -181,7 +179,7 @@ Funcionalidades principais:
 
 ---
 
-## 🚀 Melhorias futuras
+## Melhorias futuras
 
 * Autenticação de usuários
 * Deploy em produção (Vercel + Render)
@@ -191,12 +189,12 @@ Funcionalidades principais:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
-Desenvolvido por **Andeson Almeida**
+**Andeson da Cruz de Almeida** · [GitHub](https://github.com/AndesondaCruz) · [LinkedIn](https://www.linkedin.com/in/andeson-almeida-dev/)
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT.
